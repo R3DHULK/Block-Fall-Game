@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Block Fall</title>
+
+  <!-- HTML -->
+
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon"
+    href="https://png.pngtree.com/png-vector/20190716/ourmid/pngtree-video-game-icon-trendy-style-isolated-background-png-image_1543594.jpg">
+</head>
+
+<body>
+  <div class="screen" id="screen">
+
+    <div class="bg_cover" id="bg_cover">
+
+    </div>
+    <div class="stratScreen" id="startScreen">
+      <h2>Block Fall</h2>
+      <img
+        src="https://png.pngtree.com/png-vector/20190716/ourmid/pngtree-video-game-icon-trendy-style-isolated-background-png-image_1543594.jpg"
+        class="icon">
+      <button type="button" class="play_btn" id="play_btn">Play</button>
+    </div>
+    <div class="gameplay hide" id="gameplay">
+      <div class="top_area" id="top_area">
+
+        <div class="block1" id="block1"></div>
+        <div class="block2" id="block2"></div>
+        <div class="block3" id="block3"></div>
+
+        <p id="score" class="score"> Score : 0</p>
+      </div>
+
+      <div class="bottom_area" id="bottom_area">
+        <div class="character" id="character"></div>
+        <button class="left_btn" id="left_btn">&larr;</button>
+        <button class="right_btn" id="right_btn">&rarr;</button>
+      </div>
+    </div>
+    <div class="endScreen hide" id="endScreen">
+      <h2>Game Over !</h2>
+      <p class="totl_score" id="totl_score">Your score is : 0</p>
+      <button type="button" class="back_btn" id="back_btn">Back</button>
+      <button type="button" class="retry_btn" id="retry_btn">Retry</button>
+    </div>
+  </div>
+
+
+  <!-- Project -->
+  <script src="main.js"></script>
+</body>
+
+</html>
